@@ -1,0 +1,269 @@
+/* fixed style */
+*{
+    margin:0 ;
+    padding: 0;
+}
+.main-section{
+    max-width: 1000px;
+    margin:0 auto;
+}
+
+
+/* ========================================
+            top banner area style 
+===========================================*/
+.top-banner{
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: right;
+}
+.banner-content{
+    height: 300px;
+    width: 400px;
+    padding-right: 150px;
+    
+}
+.banner-title{
+    font-style: normal;
+    font-size: 65px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.banner-description{
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.top-contact-btn{
+    color:#005FAC;
+    background-color: #ffffff;
+    border: 0;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 135px;
+}
+
+
+
+/* ========================================
+        failures area style 
+===========================================*/
+.failures-section{
+    margin: 100px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.failures-section img{
+    width: 40%;
+}
+.failures-content{
+    width: 300px;
+}
+
+.failures-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.failures-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444434;
+    margin-bottom: 10px;
+}
+.failures-items{
+    list-style: none;
+}
+
+
+
+/* =======================================
+            my plan area style
+========================================== */
+
+.my-plan-section{
+    margin-bottom: 200px;
+}
+.my-plan-title{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.my-plan-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.my-plan-item{
+    text-align: center;
+    margin: 50px 0 5px 0px;
+}
+.my-plan-item img{
+    width:100px;
+}
+.item-title{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.item-sub-title{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272; 
+}
+
+
+
+/* ===========================================
+             image blanding style
+============================================== */
+
+.bg-blending-area{
+    height: 70vh;
+    background: url("../images/watch.png"), url("../images/gradient1.png");
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    padding: 60px;
+}
+.blending-text{
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+
+/* ==========================================
+        footer area style 
+=============================================*/
+.footer-section{
+    background-color: #000000;
+ }
+.footer-all-content{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0 100px 0;
+}
+.future-area{
+    width: 400px;
+}
+.future-title{
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom:20px ;
+}
+.future-description{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.email, .phone{
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.subscribe-title{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.subscribe-area input{
+  color: #ffffff;
+  background-color: #000000;
+  outline: none;
+  border: 1px solid #ffffff;
+  padding: 15px;
+  width: 200px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-weight: 400;
+
+}
+.subscribe-btn{
+     padding: 15px;
+     width: 140px;
+     border-radius: 5px;
+     color: #ffffff;
+     background-color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+.fa-solid{
+    color:rgb(255, 255, 255);
+    font-size:20px;
+    display: flex;
+    -webkit-text-fill-color: #00ca51;
+    border-radius: 50px;
+}
+.social-meadia img{
+    width: 40px;
+    padding-right: 10px;
+}
+
+
+/* ======================================
+                form area style 
+==========================================*/
+.from-groups{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:40vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #97dcff;
+    padding: 130px 50px ;
+    margin-bottom: 100px;
+    border-radius: 5px;
+}
+.sign-up-form{
+    border-right: 1px solid rgb(255, 255, 255);
+    padding-right: 50px;
+}
+label{
+    color: #252525;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+label input{
+    /* color: #f5f7f8;; */
+    
+    height: 25px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 5px;
+    background-color: #f5f5f8;
+    margin-left: 10px;
+    border: 0;
+}
+.cheek{
+    display: flex;
+}
+.common-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #005FAC;
+}
